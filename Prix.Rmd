@@ -24,7 +24,7 @@ library(ggsci)
 library(DT)
 
 #Resolucion de conflicto
-conflicts_prefer(DT::renderDataTable)
+conflicted::conflicts_prefer(DT::dataTableOutput)
  
 # URL paths for the files on GitHub
 csv_file_path <- "https://github.com/kerbys13/MVP1/raw/main/FLR-2018-2022%20(Contado%20RF%2C%20Estructurada%2012%203%204%2C%20Venta%20FWD%20RF).csv"
